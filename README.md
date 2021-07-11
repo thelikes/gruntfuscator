@@ -24,3 +24,11 @@ python3 gruntfuscator.py executor.cs obf-executor.cs
 6. Copy the contents of each back into the GUI's template
 
 Finally, create your listener, then launcher(s).
+
+## Tips
+
+- the Stager and Executor can be compiled in Visual Studio and
+  ThreatCheck/DefenderCheck can be run on them
+- Change the hard-coded replaces
+- Add more strings to be replaced
+- Throw in an AMSI bypass
